@@ -35,6 +35,6 @@ async function testConnection() {
     console.error('No se pudo conectar a la base de datos:', error);
   }
 }
-testConnection();
+//testConnection();
 
 module.exports = sequelize;
